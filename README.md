@@ -13,7 +13,7 @@ Script Bash permettant de scanner une IP ou un site web avec l'outil **Nmap**.
 1. Rendre le script exécutable :
 
 ```bash
-chmod +x scan.sh
+chmod +x scan.sh
 
 Lancer le script :
 
@@ -30,4 +30,3 @@ Utilisez ce script uniquement dans votre labo ou sur des machines de test comme 
 Auteur
 
 Yassine Cherkaoui
-
