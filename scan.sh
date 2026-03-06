@@ -1,27 +1,32 @@
 #!/bin/bash
 
+# ===============================
+# Logo ASCII et titre
+# ===============================
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
 
-#!/bin/bash
-
-echo " _   _                          ____                  "
-echo "| \ | | __ _ _ __ ___   ___    / ___| ___ _ __  _   _ "
-echo "|  \| |/ _\` | '_ \` _ \ / _ \  | |  _ / _ \ '_ \| | | |"
-echo "| |\  | (_| | | | | | |  __/  | |_| |  __/ | | | |_| |"
-echo "|_| \_|\__,_|_| |_| |_|\___|   \____|\___|_| |_|\__,_|"
-echo "                                                      "
-echo "       Simple Nmap Scan Script - Yassine Cherkaoui"
+echo -e "${BLUE}              .__     "
+echo -e " ___.__. ____ |  |__  "
+echo -e "<   |  |/ ___\\|  |  \\ "
+echo -e " \\___  \\  \\___|   Y  \\"
+echo -e " / ____|\\___  >___|  /"
+echo -e " \/         \/     \/ ${NC}"
+echo ""
+echo -e "${GREEN}   Simple Nmap Scan Script - Yassine Cherkaoui${NC}"
 echo ""
 
 
 
 
-echo "============================"
-echo "	  OUTIL SIMPLE DE SCAN NMAP   "
-echo "============================="
-echo "Entrez l'adresse IP ou le site :"
+echo "${YELLOW}Entrez l'adresse IP ou le site :${NC}"
 read cible
 
 echo ""
+
 echo "Choisissez le type de scan :"
 echo "1 - Scan rapide (100 ports)"
 echo "2 -Scan complet (1000 ports)"
