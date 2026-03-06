@@ -1,5 +1,20 @@
 #!/bin/bash
 
+
+#!/bin/bash
+
+echo " _   _                          ____                  "
+echo "| \ | | __ _ _ __ ___   ___    / ___| ___ _ __  _   _ "
+echo "|  \| |/ _\` | '_ \` _ \ / _ \  | |  _ / _ \ '_ \| | | |"
+echo "| |\  | (_| | | | | | |  __/  | |_| |  __/ | | | |_| |"
+echo "|_| \_|\__,_|_| |_| |_|\___|   \____|\___|_| |_|\__,_|"
+echo "                                                      "
+echo "       Simple Nmap Scan Script - Yassine Cherkaoui"
+echo ""
+
+
+
+
 echo "============================"
 echo "	  OUTIL SIMPLE DE SCAN NMAP   "
 echo "============================="
